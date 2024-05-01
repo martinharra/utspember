@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/dm_serif_display_italic"
+        android:gravity="center"
+        android:text="TinCS"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dm_serif_display_italic"
+        android:gravity="center"
+        android:text="We Offer Complete Comprehensive Cleaning Service "
+        android:textColor="@color/white"></TextView>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/vectorhremovebg">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:gravity="center"
+            android:text="About Us :"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Introducing TinCS, your trusted cleaning service solution! With professional services, TinCS takes the cleanliness and comfort of your home to the next level. "
+            android:textColor="@color/white"
+            android:textSize="17sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:gravity="center"
+            android:text="Service Package:"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Basic Cleaning"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Super Cleaning"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Extra Cleaning"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Rp.50.000"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Rp.100.000"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:text="Rp.150.000"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:paddingTop="8dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/baseline_attach_money_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/dm_serif_display_italic"
+                android:gravity=""
+                android:text="Payment : Cash,Transfer,All E-Wallet"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/dm_serif_display_italic"
+            android:gravity="center"
+            android:text="For More Information :"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:paddingTop="8dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/baseline_call_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/dm_serif_display_italic"
+                android:gravity="center"
+                android:text="089609931734"
+                android:textColor="@color/white"
+                android:textSize="16sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/baseline_link_24">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/dm_serif_display_italic"
+                    android:gravity="center"
+                    android:text="TinCService.id"
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
